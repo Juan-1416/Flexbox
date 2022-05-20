@@ -1,0 +1,301 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    background-color: aliceblue;
+}
+header {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+   background-color: orange;
+   justify-content: space-around;
+}
+header {
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.parrafo {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.parrafo1 {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+.parrafo2 {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.imagen img {
+    width: 100%;
+}
+@media screen and (min-width: 901px){
+
+    body {
+        background-color: palegreen;
+    }
+    .sm1
+{
+  width: 8,33%;
+}
+.sm2
+{
+    width: 16,67%;
+}
+.sm3
+{
+    width: 25,00%;
+}
+.sm4
+{
+    width: 33,33%;
+}
+.sm5
+{
+    width: 41,67%;
+}
+.sm6
+{
+    width: 50,00%;
+}
+.sm7
+{
+    width: 58,33%;
+}
+.sm8
+{
+    width: 66,67%;
+}
+.sm9
+{
+    width: 75,00%;
+}
+.sm10
+{
+    width: 83,33%;
+}
+.sm11
+{
+    width: 91,67%;
+}
+.sm12
+{
+    width: 100%;
+}
+}
+@media screen and (min-width: 601px) and (max-width: 900px){
+
+body {
+    background-color: purple;
+}
+.md1
+{
+  width: 8,33%;
+}
+.md2
+{
+    width: 16,67%;
+}
+.md3
+{
+    width: 25,00%;
+}
+.md4
+{
+    width: 33,33%;
+}
+.md5
+{
+    width: 41,67%;
+}
+.md6
+{
+    width: 50,00%;
+}
+.md7
+{
+    width: 58,33%;
+}
+.md8
+{
+    width: 66,67%;
+}
+.md9
+{
+    width: 75,00%;
+}
+.md10
+{
+    width: 83,33%;
+}
+.md11
+{
+    width: 91,67%;
+}
+.md12
+{
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px){
+
+body {
+    background-color: yellow;
+}
+
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   background-color: orange;
+   justify-content: space-around;
+
+}
+.tienda {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+}
+.ml1
+{
+  width: 8,33%;
+}
+.ml2
+{
+    width: 16,67%;
+}
+.ml3
+{
+    width: 25,00%;
+}
+.ml4
+{
+    width: 33,33%;
+}
+.ml5
+{
+    width: 41,67%;
+}
+.ml6
+{
+    width: 50,00%;
+}
+.ml7
+{
+    width: 58,33%;
+}
+.ml8
+{
+    width: 66,67%;
+}
+.ml9
+{
+    width: 75,00%;
+}
+.ml10
+{
+    width: 83,33%;
+}
+.ml11
+{
+    width: 91,67%;
+}
+.ml12
+{
+    width: 100%;
+}
+}
+@media screen and (max-width: 300px){
+
+body {
+    background-color: red;
+}
+nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   background-color: orange;
+   justify-content: space-around;
+}
+.tienda {
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    align-items: center;
+}
+.lg1
+{
+  width: 8,33%;
+}
+.lg2
+{
+    width: 16,67%;
+}
+.lg3
+{
+    width: 25,00%;
+}
+.lg4
+{
+    width: 33,33%;
+}
+.lg5
+{
+    width: 41,67%;
+}
+.lg6
+{
+    width: 50,00%;
+}
+.lg7
+{
+    width: 58,33%;
+}
+.lg8
+{
+    width: 66,67%;
+}
+.lg9
+{
+    width: 75,00%;
+}
+.lg10
+{
+    width: 83,33%;
+}
+.lg11
+{
+    width: 91,66%;
+}
+.lg12
+{
+    width: 100%;
+}
+}
